@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains ik_d8_webform_rest_extension.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function ik_d8_webform_rest_extension_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the ik_d8_webform_rest_extension module.
+    case 'help.page.ik_d8_webform_rest_extension':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Custom REST endpoints for Webform') . '</p>';
+      return $output;
+
+    default:
+  }
+}

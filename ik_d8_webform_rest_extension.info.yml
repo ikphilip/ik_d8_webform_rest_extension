@@ -1,0 +1,8 @@
+name: 'ik_d8_webform_rest_extension'
+description: 'Custom REST endpoints for Webform'
+package: IK
+type: module
+version: 0.1
+core: 8.x
+dependencies:
+  - drupal:webform_rest

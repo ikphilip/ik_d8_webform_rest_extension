@@ -1,0 +1,19 @@
+{
+  "name": "interativeknowledge/ik_d8_webform_rest_extension",
+  "description": "Custom REST endpoints for Webform",
+  "version": "0.1",
+  "type": "drupal-custom-module",
+  "keywords": ["Drupal", "Webform", "REST"],
+  "homepage": "https://www.interactiveknowledge.com",
+  "support": {
+    "source": "http://github.com/ikphilip/ik_d8_webform_rest_extension"
+  },
+  "require": {
+    "drupal/webform_rest": "^2"
+  },
+  "require-dev": {
+    "drupal/coder": "^8.2.12",
+    "squizlabs/php_codesniffer": "^2.9",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4"
+  }
+}

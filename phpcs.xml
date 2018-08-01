@@ -1,0 +1,5 @@
+<rule ref="Generic.WhiteSpace.ScopeIndent">
+    <properties>
+        <property name="indent" value="2" />
+    </properties>
+</rule>
